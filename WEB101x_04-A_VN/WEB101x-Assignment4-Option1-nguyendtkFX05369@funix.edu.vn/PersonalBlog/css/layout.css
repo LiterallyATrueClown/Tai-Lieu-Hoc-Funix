@@ -1,0 +1,45 @@
+.column {
+  float: left;
+  width: 33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .w3-input1 {
+    margin-bottom: 100px;
+    padding: 10px;
+    display:flexbox;
+    border: hotpink;
+    width: 50%;
+    border-style:solid;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .w3-input1 {
+    margin-bottom: 100px;
+    padding: 10px;
+    display:flexbox;
+    border: hotpink;
+    width: 50%;
+    border-style:solid;
+  }
+  main {
+      padding-top: 60px;
+  }
+  p {
+      font-size: 20px;
+  }
+  img {
+      width: 28rem;
+      height: auto;
+  }
+}

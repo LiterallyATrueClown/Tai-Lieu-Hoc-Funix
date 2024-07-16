@@ -1,0 +1,10 @@
+image = new SimpleImage("flowers.jpg");
+
+for (pixel: image) {
+    average = (pixel.getRed() + pixel.getGreen() + pixel.getBlue()) / 3;
+    pixel.setRed(average);
+    pixel.setGreen(average);
+    pixel.setBlue(average);
+}
+
+print(image);

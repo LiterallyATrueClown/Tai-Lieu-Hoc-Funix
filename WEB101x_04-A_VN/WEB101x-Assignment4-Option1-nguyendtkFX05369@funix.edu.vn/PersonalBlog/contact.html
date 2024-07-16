@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="javascript/contact.js"></script>
+  <script src="javascript/responsive.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Contact Me
+</title>
+</head>
+<body>
+        <header>
+          <h1 class="h1a">Chi's Cake</h1>
+              <div class="w3-container">
+      <div class="w3-bar w3-pink">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+        <a href="order.html" class="w3-bar-item w3-button">Order</a>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button">Products</button>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="details_3.html" class="w3-bar-item w3-button">German Chocolate Cake</a>
+            <a href="details_2.html" class="w3-bar-item w3-button">Classic Yellow Cake</a>
+            <a href="details.html" class="w3-bar-item w3-button">Cheese Cake</a>
+            <a href="details_4.html" class="w3-bar-item w3-button">Bunlt Coconut Cake</a>
+          </div>
+        </div>
+    </header>
+    <main>
+        <form class="textboxstuffs">
+           <p>Your name:</p>
+           <input class="w3-input1" type="text" name="Username" id="name_input"><p class="a" id="name_notification"></p>
+           <p>Your email:</p>
+           <input class="w3-input1" type="email" name="Email" id="email_input"><p class="a" id="email_notification"></p>
+           <p>Subject:</p>
+           <input class="w3-input1" type="text" name="Subject" id="subject_input"><p class="a" id="subject_notification"></p>
+           <p>Messenge:</p>
+           <input class="w3-input1" type="text" name="Messenge" id="messenge_input"><p class="a" id="messenge_notification"></p>
+        </form>
+        <button onClick="contact()" style=" 
+        border:none;
+        display:inline-block;
+        padding:8px 16px;
+        vertical-align:middle;
+        overflow:hidden;
+        text-decoration:none;
+        color:pink;
+        background-color:hotpink;
+        text-align:center;
+        cursor:pointer;
+        margin-left:10%;
+        margin-top:10px
+        "
+         type="submit">
+            Send messenge
+        </button>
+    </main>
+<footer>©2023 by Chi's Cake</footer>
+</body> 
+</html>
